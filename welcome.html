@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>validated login form</title>
+	<link rel="stylesheet" type="text/css" href="welcome.css">
+</head>
+<body>
+<div class="container">
+	<h1 class="label">User Login</h1>
+	<form class="login-form" method="post" name="form" onsubmit="return validated()">
+		<div class="font">Student's Id</div>
+		<input type="Id" name="Student's Id">
+		<div id="email_error">Please fill up your Student's Id</div>
+		<div class="font font2">password</div>
+		<input type="password" name="password">
+		<div id="pass_error">Please fill up your password</div>
+		<button type="submit">login</button>
+	</form>
+</div>
+</body>
+</html>
